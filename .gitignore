@@ -1,0 +1,43 @@
+# Compilados Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Arquivos de build Go
+*.test
+*.out
+
+# Diretório de dependências
+vendor/
+
+# Módulos gerados automaticamente
+go.sum
+
+# Diretórios temporários / caches
+tmp/
+*.log
+*.cache/
+*.tmp
+
+# Ferramentas / IDEs
+.vscode/
+.idea/
+*.swp
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos de cobertura de testes
+*.cover
+*.cov
+coverage.*
+
+# Diretório de binários (caso você use um)
+bin/
+
+# Arquivos de ambiente
+.env
+.env.*
