@@ -40,4 +40,4 @@ bin/
 
 # Arquivos de ambiente
 .env
-.env.*
+
